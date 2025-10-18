@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xpensesplitter">
+
+    <!-- Internet permission for Firebase -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.XpenseSplitter.NoActionBar">
+
+        <!-- Login Activity (Launcher) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SignupActivity" android:exported="false" />
+
+        <activity android:name=".SummaryActivity" android:exported="false" />
+
+        <activity android:name=".JoinGroupActivity" android:exported="false" />
+
+        <activity android:name=".ProfileActivity" android:exported="false" />
+
+
+
+
+        <!-- Signup Activity -->
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- Create Group Activity -->
+        <activity
+            android:name=".CreateGroupActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false" />
+
+        <!-- Group Details Activity -->
+        <activity
+            android:name=".GroupDetailsActivity"
+            android:exported="false" />
+
+        <!-- Add Expense Activity -->
+        <activity
+            android:name=".AddExpenseActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

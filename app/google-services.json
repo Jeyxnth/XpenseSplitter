@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "940377230453",
+    "project_id": "xpensesplitter",
+    "storage_bucket": "xpensesplitter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940377230453:android:7152adba69235e2f883c3c",
+        "android_client_info": {
+          "package_name": "com.example.xpensesplitter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNh2RxCYOdGFXCDtHXQfJck5fwxrE8AoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@android:color/background_dark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Group Code"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/inputGroupCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Group Code"
+        android:textColor="@android:color/white"
+        android:inputType="text"
+        android:backgroundTint="@color/purple_500"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonJoinGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join Group"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
